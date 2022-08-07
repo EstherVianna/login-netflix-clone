@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family:  'Bebas Neue', cursive;
+    font-size: 13px;
+}
+
+.logo{
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.titulo{
+    display: block;
+    margin: 1px 400px;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 2px;
+    line-height: 55px;
+    cursor: default;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    width: 900px;
+    height: 280px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.person-1{
+    margin: 0 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.person-2{
+    margin: 0 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.person-3{
+    margin: 0 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.add-person{
+    margin: 0 20px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+input{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width:150px;
+    height: 50px;
+    border: 1px solid white;
+    margin: 20px auto;
+    text-transform: uppercase;
+    cursor: pointer;
+}
